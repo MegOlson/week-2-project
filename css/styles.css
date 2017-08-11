@@ -1,8 +1,11 @@
 .ruby, .c, .css, .leftover {
   display: none;
+  border-radius: 5px;
+  margin-bottom: 40px;
 }
 body {
   background-image: url("../img/code.jpg");
+  background-attachment: fixed;
   display: block;
 }
 .jumbotron {
@@ -15,6 +18,9 @@ body {
 .panel-body {
   background-color: #bee0e5;
 }
+.panel {
+  border-radius: 10px;
+}
 #nameTitle {
   background-color: #f99991;
   width: 200px;
@@ -24,23 +30,23 @@ button {
   background-color: #f99991;
   color: white;
 }
-.trackOutput {
-  width: 700px;
-  height: 500px;
-  font-size: 20px;
-  margin-top: 40px;
-  margin-left: 220px;
-}
 .panel-heading p {
   font-size: 25px;
   text-align: center;
 }
 img {
-  width: 650px;
+  width: 700px;
   height: 300px;
-  padding-left: 20px;
+  padding-left: 130px;
   padding-top: 5px;
 }
-.panel-heading {
+.panel-heading  {
   background-color: #ffcbb9;
+}
+.trackOutput {
+  width: 900px;
+  height: 500px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 140px;
 }
