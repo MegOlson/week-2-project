@@ -6,7 +6,7 @@ body {
   display: block;
 }
 .jumbotron {
-  margin: 80px;
+  margin-top: 80px;
   text-align: center;
   background-color: #6fc3ce;
   color: white;
@@ -14,10 +14,14 @@ body {
 }
 .panel-body {
   background-color: #bee0e5;
-
+}
+#nameTitle {
+  background-color: #f99991;
+  width: 200px;
+  padding: 3px;
 }
 button {
-  background-color: #007e8e;
+  background-color: #f99991;
   color: white;
 }
 .trackOutput {
@@ -35,4 +39,8 @@ img {
   width: 650px;
   height: 300px;
   padding-left: 20px;
+  padding-top: 5px;
+}
+.panel-heading {
+  background-color: #ffcbb9;
 }
