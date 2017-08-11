@@ -14,19 +14,19 @@
       <div class="jumbotron">
         <h1>Find Your Track</h1>
       </div>
-      <form>
+      <form id="track">
         <!-- Question 1 -->
         <div class="q1">
           <h3>Do you prefer working with large companies and corporations or smaller companies and startups?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="size" value="large corporations">
+              <input type="radio" name="q1" value="large corporations">
               Large corporations
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="size" value="small companies and startups">
+              <input type="radio" name="q1" value="small companies and startups">
               Small companies and startups
             </label>
           </div>
@@ -36,13 +36,13 @@
           <h3>Do you enjoy getting into the knitty gritty of design and layout?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="design" value="yes - i love it">
+              <input type="radio" name="q2" value="yes - i love it">
               Yes - I love it!
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="design" value="no - i wouldn't even know where to start">
+              <input type="radio" name="q2" value="no - i wouldn't even know where to start">
               No - I wouldn't even know where to start
             </label>
           </div>
@@ -52,18 +52,18 @@
           <h3>Which would you most enjoy doing?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="type" value="creating a formula to act with user input">
+              <input type="radio" name="q3" value="creating a formula to act with user input">
               Creating a formula to act with user input
             </label>
           <div class="radio">
             <label>
-              <input type="radio" name="type" value="writing elaborate software for a big database">
+              <input type="radio" name="q3" value="writing elaborate software for a big database">
               Writing elaborate software
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="type" value="formatting a webpage according to user preference and usability">
+              <input type="radio" name="q3" value="formatting a webpage according to user preference and usability">
               Formatting a webpage according to user preference and usability
             </label>
           </div>
@@ -73,13 +73,13 @@
           <h3>Are you okay with working on one project for a long period of time</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="pace" value="yes - whatever it takes!">
+              <input type="radio" name="q4" value="yes - whatever it takes!">
               Yes - whatever it takes!
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="pace" value="no - I am persistent and determined but I like to see my project up and running with faster results">
+              <input type="radio" name="q4" value="no - I am persistent and determined but I like to see my project up and running with faster results">
               No - I am persistent and determined but I like to see my project up and running with results
             </label>
           </div>
@@ -89,20 +89,20 @@
           <h3>Does mobile development appeal to you?</h3>
           <div class="radio">
             <label>
-              <input type="radio" name="design" value="yes, please">
+              <input type="radio" name="q5" value="yes, please">
               Yes, please!
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="design" value="not neccesarily">
+              <input type="radio" name="q5" value="not neccesarily">
               Not neccesarily
             </label>
           </div>
         </div>
         <button type=submit class="btn">Find my Track!</button>
       </form>
-      <div class="result">
+      <div class="trackOutput">
         <div class="ruby">
           <h4>You got Ruby/Rails!</h4>
           <p>The Ruby track here at Epicodus begins with Intro and Javascript like every other course, and finishes with a Ruby class. Ruby is popular for buidling interactive web applications. It is perfect for dynamic content and user input. It is mostly used at smaller companies and startups who want to build product quickly.</p>
@@ -120,5 +120,6 @@
           <p>Your reults show that you could follow any track at Epicodus. Your preferences show a mix of different languages seen in the Ruby/Rails track, C#/.NET track, and CSS/Design track.</p>
         </div>
       </div>
+    </div>
   </body>
 </html>
