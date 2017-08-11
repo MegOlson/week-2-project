@@ -1,3 +1,22 @@
 .ruby, .c, .css, .leftover {
   display: none;
 }
+body {
+  background-image: url("../img/code.jpg");
+  display: block;
+}
+.jumbotron {
+  margin: 80px;
+  text-align: center;
+  background-color: #6fc3ce;
+  color: white;
+  padding: 40px;
+}
+.panel-body {
+  background-color: #bee0e5;
+
+}
+button {
+  background-color: #007e8e;
+  color: white;
+}
